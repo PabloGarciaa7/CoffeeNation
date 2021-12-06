@@ -8,7 +8,7 @@
 }
 #cabecera {
   grid-row: 1;
-  grid-column: 1/6;
+  grid-column: 1/7;
   background-color: #ffffff;
   display: inline;
 }
@@ -28,7 +28,7 @@ div header img {
 }
 #navegador {
   grid-row: 2;
-  grid-column: 1/6;
+  grid-column: 1/7;
   background-color: #c59d5f;
   position: sticky;
   top: 0;
