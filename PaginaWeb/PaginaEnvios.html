@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CoffeeNation.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Viga">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme">
+    <link  rel="icon"   href="favicon.png" type="image/png" />
+    <title>Document</title>
+</head>
+<body>
+<div id="todoContenido">
+    <div id="cabecera">
+        <header>
+            <img src="ImagenesCoffeNation/logo.png" alt="logo">
+            <h1>CoffeeNation</h1>
+        </header>
+    </div>
+    <div id="navegador">
+        <nav>
+            <ul>
+              <li><a href="index.html">Sobre Nosotros</a></li>
+              <li><a href="PaginaTipoCafe.html">Cafes</a></li>
+              <li><a href="PaginaPaisajes.html">#Paisajes</a></li>
+              <li><a href="PaginaCatalogo.html">Catalogo</a></li>
+              <li><a href="PaginaEnvios.html">Envios</a></li>
+            </ul>
+        </nav>
+    </div>     
+    <div id="menuLateral"> 
+        <aside>
+            <ol>
+                <li><img src="ImagenesCoffeNation/instagram.png" alt="instagram"><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                <li><img src="ImagenesCoffeNation/twitter.png" alt="twitter"><a href="https://www.twitter.com/" target="_blank">Twitter</a></li>
+                <li><img src="ImagenesCoffeNation/facebook.png" alt="facebook"><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                <li><img src="ImagenesCoffeNation/youtube.png" alt="youtube"><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+                <li>Si subes una foto con nuestro cafe, etiquetanos con #CoffeeNation y decirnos que coffee te gusta mas. La añadiremos a nuestra seccion de #Paisajes!</li>
+            </ol>
+        </aside>
+    </div>   
+    <div id="principal">
+        <main>
+            <div class="contact_form">
+                <div class="formulario">      
+                  <h1>Formulario de envio</h1>
+                    <h3>Este formulario es para poder enviarte el cafe que desees de nuestro catalogo</h3>
+                       
+                      <form action="submeter-formulario.php" method="post">                  
+
+                            <p>
+                              <label for="nombre" class="colocar_nombre">Nombre
+                                <span class="obligatorio">*</span>
+                              </label>
+                                <input type="text" name="introducir_nombre" id="nombre" required placeholder="Escribe tu nombre">
+                            </p>
+                          
+                            <p>
+                              <label for="email" class="colocar_email">Email
+                                <span class="obligatorio">*</span>
+                              </label>
+                                <input type="email" name="introducir_email" id="email" required placeholder="Escribe tu Email">
+                            </p>
+                        
+                            <p>
+                              <label class="colocar_telefono">Teléfono
+                              </label>
+                                <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                            </p>    
+                          
+                            <p>
+                              <label class="colocar_website">Coffees
+                              </label>
+                                <input type="url" name="introducir_website" id="website" placeholder="Escribe los tipos a comprar">
+                            </p>    
+                          
+                            <p>
+                              <label class="colocar_asunto">Direccion
+                                <span class="obligatorio">*</span>
+                              </label>
+                                <input type="text" name="introducir_asunto" id="assunto" required placeholder="Escribe la direccion">
+                            </p>    
+                          
+                            <p>
+                              <label for="mensaje" class="colocar_mensaje">Mensaje
+                                <span class="obligatorio">*</span>
+                              </label>                     
+                                                <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required placeholder="Deja aquí tu comentario..."></textarea> 
+                                            </p>                    
+                          
+                            <button type="submit" name="enviar_formulario" id="enviar">Enviar</button>
+            
+                            <p class="aviso">
+                              <span class="obligatorio"> * </span>los campos son obligatorios.
+                            </p>    
+                      </form>
+                </div>  
+              </div>         
+        </main>
+    </div>
+    <div id="piePagina">
+        <footer>2021 © Pablo Garcia Email de contacto: CoffeeNation@gmail.com todos los derechos reservados
+        </footer>
+    </div>
+</div>
+</body>
+</html>
