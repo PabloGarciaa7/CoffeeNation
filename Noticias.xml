@@ -1,0 +1,24 @@
+<?xml version=»1.0″ encoding=»UTF-8″ ?>
+<rss version=»2.0″>
+
+<channel>
+
+<title>El podcast de Radios Libres</title>
+<link>https://www.https://pablogarciaa7.github.io/CoffeeNation//</link>
+<description>CoffeeNation tu cafeteria de confianza.</description>
+<copyright>CC 4.0 – BY-SA<copyright>
+
+<item>
+
+<title>Sobre Nosotros</title>
+<link>https://www.https://pablogarciaa7.github.io/CoffeeNation</link>
+<description>En esta pagina encontraras todo lo que necesitas sobre cafes.</description>
+<author>Pablo Gacia</author>
+<pubDate>Thu, 16 Dic 2021</pubDate>
+<enclosure url=»https://www.https://pablogarciaa7.github.io/CoffeeNation» type=»audio/ogg» length=»300″ />
+
+</item>
+
+</channel>
+
+</rss>
