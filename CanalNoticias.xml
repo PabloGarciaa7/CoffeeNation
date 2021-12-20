@@ -1,0 +1,22 @@
+<rss version="2.0">
+    <channel>
+        <title>Mi canal de RSS</title>
+        <link>https://pablogarciaa7.github.io/CoffeeNation/</link>
+        <description>Noticias sobre los cafes</description>
+        <image>
+            <url>https://pablogarciaa7.github.io/CoffeeNation/</url>
+            <title>Imagenes CoffeeNation</title>
+            <link>https://github.com/PabloGarciaa7/CoffeeNation/blob/main/ImagenesCoffeNation/logo.png</link>
+        </image>
+        <item>
+            <title>Nuestra pagina de catalogos</title>
+            <link>https://pablogarciaa7.github.io/CoffeeNation/PaginaTipoCafe.html</link>
+            <description>Nuevo cafe en nuestro catalogo</description>
+        </item>
+        <item>
+            <title>Frases de nuestros clientes en las redes</title>
+            <link>https://pablogarciaa7.github.io/CoffeeNation/PaginaPaisajes.html</link>
+            <description>Escribe alguna frase con nuestro hashtag y lo subiremos.</description>
+        </item>
+    </channel>
+</rss>
